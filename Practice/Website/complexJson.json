@@ -1,0 +1,133 @@
+{
+    "companyName": "4iApps Inc",
+    "employees": [
+      {
+        "empId": 100,
+        "empName": "Aaditya",
+        "emailId": "aaditya.v@4iapps.com",
+        "projects": ["sports dashboard app", "attendance maintenance app", "fitness tracking app"],
+        "responsibilities": {
+          "skills": ["html5", "css3", "javascript"],
+          "roles": ["front-end development", "ui design"],
+          "team" :"Frontend Team"
+        },
+        "contact": {
+          "phone": "+1 (123) 456-7890",
+          "address": {
+            "street": "123 Main St",
+            "city": "New York",
+            "country": "USA"
+          }
+        },
+        "isManager": true,
+        "isPermanentEmployee": true,
+        "isOnVacation": false
+      },
+      {
+        "empId": 101,
+        "empName": "Luffy",
+        "emailId": "m.d.luffy@4iapps.com",
+        "projects": ["sports dashboard app", "fitness tracking app"],
+        "responsibilities": {
+          "skills": ["javascript", "nodeJS", "mongoDB"],
+          "roles": ["back-end development"],
+          "team" :"Mobile Team"
+        },
+        "contact": {
+          "phone": "+1 (987) 654-3210",
+          "address": {
+            "street": "456 Tech Ave",
+            "city": "San Francisco",
+            "country": "USA"
+          }
+        },
+        "isManager": false,
+        "isPermanentEmployee": true,
+        "isOnVacation": false
+      },
+      {
+        "empId": 102,
+        "empName": "Zoro",
+        "emailId": "zoro.r@4iapps.com",
+        "projects": ["sports dashboard app", "fitness tracking app", "attendance maintenance app"],
+        "responsibilities": {
+          "skills": ["figma", "adobeXD", "prototyping"],
+          "roles": ["ux research"],
+          "team" : "Frontend Team" 
+        },
+        "contact": {
+          "phone": "+1 (555) 123-4567",
+          "address": {
+            "street": "789 Market St",
+            "city": "Chicago",
+            "country": "USA"
+          }
+        },
+        "isManager": false,
+        "isPermanentEmployee": true,
+        "isOnVacation": true
+      },
+      {
+        "empId": 103,
+        "empName": "Nami",
+        "emailId": "nami.p@4iapps.com",
+        "projects": ["finance management app", "billing system"],
+        "responsibilities": {
+          "skills": ["finance", "accounting"],
+          "roles": ["finance analyst", "accountant"],
+          "team" :"Finance Team"
+        },
+        "contact": {
+          "phone": "+1 (111) 222-3333",
+          "address": {
+            "street": "555 Finance Lane",
+            "city": "London",
+            "country": "UK"
+          }
+        },
+        "isManager": false,
+        "isPermanentEmployee": true,
+        "isOnVacation": false
+      }
+    ],
+    "departments": ["Engineering", "Design", "Finance", "Marketing"],
+    "officeLocations": {
+      "New York": {
+        "address": "123 Main St",
+        "postalCode": "10001",
+        "contactNumber": "+1 (123) 456-7890"
+      },
+      "San Francisco": {
+        "address": "456 Tech Ave",
+        "postalCode": "94105",
+        "contactNumber": "+1 (987) 654-3210"
+      },
+      "Chicago": {
+        "address": "789 Market St",
+        "postalCode": "60602",
+        "contactNumber": "+1 (555) 123-4567"
+      },
+      "London": {
+        "address": "555 Finance Lane",
+        "postalCode": "SW1A 0AA",
+        "contactNumber": "+44 20 7930 4832"
+      }
+    },
+    "projects": {
+      "WebApp1": {
+        "description": "A web application for project management",
+        "startDate": "2023-01-01",
+        "team": "Frontend Team"
+      },
+      "MobileApp1": {
+        "description": "A mobile app for productivity",
+        "startDate": "2023-02-01",
+        "team": "Mobile Team"
+      },
+      "FinanceApp1": {
+        "description": "An app for finance management",
+        "startDate": "2023-03-01",
+        "team": "Finance Team"
+      }
+    }
+  }  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Javascript Fetch API </title>
+</head>
+<body>
+  <p> Javascript Fetch API </p>
+  <div id="data-container">
+    <!-- Data will be displayed here -->
+  </div>
+
+  <script>
+    // Function to fetch data using Fetch API with async/await
+    async function fetchData(url) {
+      try 
+      {
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+      } 
+      catch (error) 
+      {
+        console.error('Error fetching data:', error);
+        return null;
+      }
+    }
+
+    // to delay the functions
+    function delay(ms) 
+    {
+      return new Promise((resolve) => setTimeout(resolve, ms));
+    }
+
+    // Function to update the DOM with fetched data
+    function updateDOM(data) {
+      const dataContainer = document.getElementById('data-container');
+      const dataOutput = document.createElement('pre');
+      dataOutput.textContent = JSON.stringify(data, null, 2);
+      dataContainer.appendChild(dataOutput);
+    }
+
+    // Using async/await and setTimeout to fetch data and update the DOM
+    async function fetchDataAndUpdateDOM() 
+    {
+      let url = 'https://jsonplaceholder.typicode.com/users/1';
+
+      try {
+        console.log(url);
+        const data = await fetchData(url);
+        if (data) {
+          // Simulate a delay of 1.5 seconds using setTimeout
+          await delay(1500);
+          updateDOM(data);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    }
+
+    // Call the function to fetch data and update the DOM
+    fetchDataAndUpdateDOM();
+  </script>
+</body>
+</html>

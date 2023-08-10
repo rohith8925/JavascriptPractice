@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+            const fruits = ["Banana", "Orange", "Apple", "Mango", "Mango", ['9'], [[[6]]]];
+        console.log('fruits', fruits)
+        const num = [1, 2, 3, 4, 5,6, 7, 8, 9, 10]
+        // console.log('copywithin', fruits.copyWithin(4))
+        // console.log('fill', fruits.fill(2,3,6))
+        const a = [1];
+        // console.log('fill', a.fill(fruits))
+        // console.log('a', a)
+        const c = new Array(1)
+        console.log(c)
+        // console.log('------c-----', c)
+        // console.log('', c.fill(fruits, ''))
+        // console.log('join',fruits.join(' '))
+        // console.log('slice', fruits.slice(2, 3))
+        // console.log('splice', fruits.splice(2, 0, 'Grapes', 'lemon'))
+        // console.log('indexof', fruits.indexOf('Apple')) //0
+        // console.log('lastindexof', fruits.lastIndexOf('Mango')) //4,2, 
+        // console.log('sort', fruits.sort())
+        // console.log('sort', fruits.sort((a,b) => b > a ? -1 : 1))
+        // console.log('findIndex', fruits.findIndex((data)=> data === 'Orange')) //1
+        // console.log('find', fruits.find((data) => data === 'Orange' ))
+        // console.log('some', fruits.some((data) => data === 'Banana' )) //boolean
+        // console.log('every', fruits.every((data) => data === 'Apple')) // boolean
+        // console.log('with', a.with(0, 'Strawberry'))
+        // console.log('includes', fruits.includes('Banana')) //boolean
+        // console.log('isArray', Array.isArray(fruits)) //boolean
+        // console.log('valueof', fruits.valueOf())
+        // console.log('reverse', fruits.reverse())
+        // console.log('toString', fruits.toString())
+        // console.log('at', fruits.at(3)) // 'mango'
+        // console.log('delete', delete fruits[0])
+        // console.log('--------', fruits)
+        // console.log('concat', fruits.concat(['1', '2']))
+        // console.log('flat', fruits.flat())
+        const d = num.groupBy((data) => data%2 === 0 ? 'even' : 'odd')
+        console.log('group', d) //
+
+
+        console.log('-------script-----')
+    </script>
+  </body>
+</html>

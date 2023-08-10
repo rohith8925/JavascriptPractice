@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map in Javascript</title>
+</head>
+<body>
+    <h1>This is the Map Methods</h1>
+    <script>
+        //new map
+        const fruits = new Map([
+                        ["apples", 500],
+                        ["bananas", 300],
+                        ["oranges", 200]
+                        ]);
+ console.log(fruits);
+
+ //set() --> add a new element in array
+ const fruit = new Map([
+                        ["apples", 500],
+                        ["bananas", 300],
+                        ["oranges", 200]
+                        ]);
+ fruit.set('apple',500)
+ console.log(fruit)
+
+ //get() --get the value of key
+ const fruit1 = new Map([
+                        ["apples", 500],
+                        ["bananas", 300],
+                        ["oranges", 200]
+                        ]);
+console.log(fruit1.get("oranges"));
+//map.size() --> print size
+
+ const fruit2 = new Map([
+                        ["apples", 500],
+                        ["bananas", 300],
+                        ["oranges", 200]
+                        ]);
+console.log(fruit2.size);
+
+//map.delete() -->delete the array elements
+const fruit3 = new Map([
+                        ["apples", 500],
+                        ["bananas", 300]
+                        ]);
+console.log(fruit3.delete('apples'));
+console.log(fruit3.size);
+
+
+</script>
+</body>
+</html>

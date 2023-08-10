@@ -1,0 +1,64 @@
+VM1650:1 Console was cleared
+undefined
+str1 = 'I am rohith, '
+'I am rohith, '
+str2 = 'currently,working in 4iapps'
+'currently,working in 4iapps'
+str1 + str2
+'I am rohith, currently,working in 4iapps'
+str1.concat(str2);
+'I am rohith, currently,working in 4iapps'
+str1.concat('*','^',str2)
+'I am rohith, *^currently,working in 4iapps'
+str1.concat(str1,str2)
+'I am rohith, I am rohith, currently,working in 4iapps'
+str2
+'currently,working in 4iapps'
+str2.slice(0,3)
+'cur'
+str2.slice(-3)
+'pps'
+str2.substring(-1,-3)
+''
+str2.substring(-1,-6)
+''
+str2.substring(1,6)
+'urren'
+str2
+'currently,working in 4iapps'
+str2.substr(0,3)
+'cur'
+str2.substr(3,3)
+'ren'
+str2.replace('Currently','Currently');
+'currently,working in 4iapps'
+str2.replace('currently','Currently')
+'Currently,working in 4iapps'
+str2.replace('is','Currently')
+'currently,working in 4iapps'
+str2.replace('in',' ','is');
+'currently,work g in 4iapps'
+str2.replace('in',' ');
+'currently,work g in 4iapps'
+str2.replace(' ','*');
+'currently,working*in 4iapps'
+str2.replaceall(' ','*');
+VM2735:1 Uncaught TypeError: str2.replaceall is not a function
+    at <anonymous>:1:6
+(anonymous) @ VM2735:1
+str2.replaceAll(' ','*');
+'currently,working*in*4iapps'
+let padding = 'rs.10'
+undefined
+padding.padEnd(3,'0')
+'rs.10'
+padding.padEnd(8,'0')
+'rs.10000'
+padding.padEnd(5,'x')
+'rs.10'
+const result = Math.random().toString(6)
+undefined
+console.log(result)
+VM3300:1 0.454112210241403531351
+undefined
+m=_b,_tp:259 [Violation] 'setTimeout' handler took 135ms

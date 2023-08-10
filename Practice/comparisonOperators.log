@@ -1,0 +1,43 @@
+
+age = 10;
+10
+
+age > 10
+false
+
+age < 10
+false
+
+age > 11
+false
+
+age < 11
+true
+
+age >= 11
+false
+
+age <= 11
+true
+
+
+age == 5
+false
+
+age == 10
+true
+
+age == '10'
+true
+
+age === '10'
+false
+
+age === 10
+true
+
+age != 10
+false
+
+age !== '10'
+true

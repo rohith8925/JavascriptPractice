@@ -1,0 +1,222 @@
+{
+    "Teams":{
+        "super kings":{
+            "city":"chennai",
+            "Matches":200,
+            "Highest Score":246,
+            "Players":[{
+                "Batsman":{
+                    "vijay":{
+                        "Nationality":"Indian",
+                        "Runs":4000,
+                        "lastfour":[23,9,45,3]
+                    },
+                    "Dhoni":{
+                        "Nationality":"Indian",
+                        "Runs":5000,
+                        "lastfour":[11,35,44,19]
+                    },
+                    "Hussey":{
+                        "Nationality":"Australian",
+                        "Runs":3500,
+                        "lastfour":[23,56,45,11]
+                    }
+                },
+
+                "Allrounders":{
+                    "Jadeja":{
+                        "Nationality":"Indian",
+                        "Runs":2500,
+                        "Wickets":120
+                    },
+                    "Moeen":{
+                        "Nationality":"England",
+                        "Runs":1000,
+                        "Wickets":30
+                    }
+                },
+                "Bowlers":{
+                    "Deepak":{
+                        "Nationality":"Indian",
+                        "Wickets":90,
+                        "Economy":7.56
+                    },
+                    "Bravo":{
+                        "Nationality":"West Indies",
+                        "Wickets":150,
+                        "Economy":8.03
+                    }
+                }
+            }],
+            "Ground":{
+                "Name":"Chidambaram Stadium",
+                "Capacity":45000
+            },
+            "Trophies":[2010,2011,2018,2021,2023],
+            "Consistent":true
+        },
+        
+        "Indians":{
+            "city":"Mumbai",
+            "Matches":230,
+            "Highest Score":"235",
+            "Players":[{
+                "Batsman":{
+                    "Rohit":{
+                        "Nationality":"India",
+                        "Runs":6200,
+                        "lastfour":[3,11,33,9]
+                    },
+                    "Surya":{
+                        "Nationality":"India",
+                        "Runs":3540,
+                        "lastfour":[83,45,30,67]
+                    },
+                    "Simmons":{
+                        "Nationality":"West Indies",
+                        "Runs":4000,
+                        "lastfour":[69,0,23,36]
+                    }
+                },
+                "Allrounders":{
+                    "Pollard":{
+                        "Nationality":"West Indies",
+                        "Runs":3500,
+                        "Wickets":60
+                    },
+                    "Green":{
+                        "Nationality":"Australia",
+                        "Runs":300,
+                        "Wickets":5
+                    }
+                },
+                "Bowlers":{
+                    "Bumrah":{
+                        "Nationality":"India",
+                        "Wickets":120,
+                        "Economy":6.9
+                    },
+                    "Malinga":{
+                        "Nationality":"Sri Lanka",
+                        "Wickets":180,
+                        "Economy":7.67
+                    }
+                }
+            }],
+            "Ground":{
+                "Name":"wankhede Stadium",
+                "Capacity":30000
+            },
+            "Trophies":[2013,2015,2017,2019,2020],
+            "Consistent":true
+        },
+        "Royal Challengers":{
+            "city":"Bengaluru",
+            "Matches":220,
+            "Highest Score":245,
+            "Players":[{
+                "Batsman":{
+                    "Kholi":{
+                        "Nationality":"India",
+                        "Runs":7000,
+                        "lastfour":[100,112,1,34]
+                    },
+                    "Gayle":{
+                        "Nationality":"West Indies",
+                        "Runs":4900,
+                        "lastfour":[0,23,56,33]
+                    },
+                    "De villiers":{
+                        "Nationality":"South Africa",
+                        "Runs":4600,
+                        "lastfour":[56,91,43,6]
+                    }
+                },
+                "Allrounders":{
+                    "Kallis":{
+                        "Nationality":"South Africa",
+                        "Runs":1600,
+                        "Wickets":40
+                    },
+                    "Maxwell":{
+                        "Nationality":"Australia",
+                        "Runs":2999,
+                        "Wickets":40
+                    }
+                },
+                "Bowlers":{
+                    "Chahal":{
+                        "Nationality":"India",
+                        "Wickets":185,
+                        "Economy":8.43
+                    },
+                    "Siraj":{
+                        "Nationality":"India",
+                        "Wickets":60,
+                        "Economy":7.77
+                    }
+                }
+            }],
+            "Ground":{
+                "Name":"Chidambaram Stadium",
+                "Capacity":40000
+            },
+            "Trophies":null,
+            "Consistent":false
+        },
+        "Knight Riders":{
+            "city":"Kolkata",
+            "Matches":223,
+            "Highest Score":245,
+            "Players":[{
+                "Batsman":{
+                    "Gambhir":{
+                        "Nationality":"India",
+                        "Runs":5000,
+                        "lastfour":[23,34,56,0]
+                    },
+                    "Mccullum":{
+                        "Nationality":"New Zeland",
+                        "Runs":4300,
+                        "lastfour":[12,34,76,51]
+                    },
+                    "Rana":{
+                        "Nationality":"India",
+                        "Runs":2250,
+                        "lastfour":[23,45,55,67]
+                    }
+                },
+                "Allrounders":{
+                    "Russell":{
+                        "Nationality":"West Indies",
+                        "Runs":3300,
+                        "Wickets":89
+                    },
+                    "Narine":{
+                        "Nationality":"West Indies",
+                        "Runs":3500,
+                        "Wickets":160
+                    }
+                },
+                "Bowlers":{
+                    "Kuldeep":{
+                        "Nationality":"India",
+                        "Wickets":120,
+                        "Economy":8.96
+                    },
+                    "Umesh":{
+                        "Nationality":"India",
+                        "Wickets":130,
+                        "Economy":8.09
+                    }
+                }
+            }],
+            "Ground":{
+                "Name":"Eden Garden",
+                "Capacity":40000
+            },
+            "Trophies":[2012,2014],
+            "Consistent":false
+        }
+    }
+}

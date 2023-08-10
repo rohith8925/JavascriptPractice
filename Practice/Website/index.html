@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>JavaScript Website</title>
+</head>
+<body>
+    <p>Java Script Course</p>
+    <script type = 'module'>
+    //  import myJson from './complexJson.json' assert {type: 'json'};
+
+    //import json module
+     import myJson from './myjson2.json' assert {type: 'json'};
+    console.log(myJson);
+    //keys of teams
+    let team = Object.keys(myJson.Teams);
+    console.log(team);//output
+
+    let playersRunResult = 0
+    //access the teams
+    for (let i = 0; i < team.length; i++) {
+        let play = myJson.Teams[team[i]].Players[0].Allrounders;
+        let playersall = Object.keys(play);
+        console.log(playersall);
+        
+        //access the allrounders run
+        for (let j = 0; j < playersall.length; j++) {
+            let playerRuns   = myJson.Teams[team[i]].Players[0].Allrounders[playersall[j]].Runs;
+            playersRunResult = playersRunResult + playerRuns; // total of allrounders run
+
+        }
+
+    }
+    console.log('Total Runs of All-Rounders', playersRunResult);//taotal runs
+
+    //  function complexJson(a)
+    //  {
+    //     console.log(myJson);
+    //     let arr =[];
+    //     for (let i=0;i<myJson.employees.length;i++)
+    //     {
+    //         let testjson = myJson.employees[i].responsibilities.team
+    //         let testvac = myJson.employees[i].isOnVacation;
+            
+    //         // console.log(testvac);
+    //         if(testjson == a && testvac == false)
+    //         {
+    //            arr.push(myJson.employees[i])
+    //         }
+    //     }
+    //     return arr;
+    //  }
+    // //  const newArray = complexJson('Mobile Team');
+    //  console.log(complexJson('Frontend Team'));
+    </script>
+    
+</body>
+</html>

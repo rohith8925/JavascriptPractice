@@ -1,0 +1,36 @@
+{
+    "Students":{
+      "1":{
+      "studentNumber": "19AE001",
+      "studentName": "John",
+       "Group":"Biology",
+      "Marks":{"sem1":{
+        "English":81,
+        "Maths":56,
+        "Biology":84,
+        "Chemistry":73}
+      ,"sem2":{
+        "English":71,
+        "Maths":70,
+        "Biology":80,
+        "Chemistry":79
+      }}
+      },
+      "2":{
+      "studentNumber": "19AE002",
+      "studentName": "Lewis",
+       "Group":"Biology",
+      "Marks":{"sem1":{
+        "English":45,
+        "Maths":40,
+        "Biology":55,
+        "Chemistry":53}
+      ,"sem2":{
+        "English":50,
+        "Maths":47,
+        "Biology":55,
+        "Chemistry":50
+      }}
+      }
+    }
+  }
